@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon(1).ico" type="image/x-icon">
+    <title>Videos em HTML5</title>
+
+</head>
+
+<body>
+    <h1>Inserindo videos hospedados localmente.</h1>
+    <P>Este video está hospedado em meu próprio servidor.</P>
+
+    <!--MANEIRA SIMPLES-->
+
+    <!-- <video src="video/meu-video.mp4.mp4" width="500" controls ></video>
+        <video src="video/meu-video.m4v.mkv" width="400" controls ></video>
+        <video src="video/meu-video.ogv.ogv" width="300" controls ></video>
+        <video src="video/meu-video.webm.webm" width="200" controls ></video> -->
+
+    <!-- MANEIRA CORRETA -->
+
+    <video controls width="560" height="315" poster="imagens/foto-cafe-200.jpg">
+
+        <source src="video/meu-video.mp4.mp4" type="video/mp4">
+        <source src="video/meu-video.ogv.ogv" type="video/ogg">
+        <source src="video/meu-video.m4v.mkv" type="video/mp4">
+        <source src="video/meu-video.webm.webm" type="video/webm">
+
+        <p>Seu navegador não suporta esse tipo de midia</p>
+
+    </video>
+
+    <h1>Encorporando videos externos mais baratos para o cliente</h1>
+
+    <p>Video do YouTube</p>
+
+    <!--COPIAR E INCORPORAR-->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <h1>video do vimeo</h1>
+
+    <!--COPIAR E INCORPORAR-->
+
+    <p>video do vimeo</p>    
+
+    <iframe src="https://player.vimeo.com/video/330207644?h=6a9e658aaf&autoplay=1&color=ff9933&portrait=0" width="560"
+        height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+   
+
+</body>
+
+</html>

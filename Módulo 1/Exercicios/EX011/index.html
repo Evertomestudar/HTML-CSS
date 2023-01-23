@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos ou simplesmente aumente e diminua seu navegador.  </p>
+    <picture>
+
+        <!-- COLOCAR SEMPRE DA IMAGEM MAIOR PARA MENOR  -->
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+         <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Foto grande">
+
+    </picture>
+      
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender reproduzir áudios em HTML5</p>
+
+     <!--MODO SIMPLES DE COLOCAR UM ÀUDIO-->
+      <audio src="audio/ice-e-fire.mp3"controls autoplay ></audio>
+
+      <!--SEGUNDA MANEIRA, (LOOP) fica repetindo-->
+      <audio preload="metadata" controls autoplay loop >
+         <source src="audio/ice-e-fire.mp3" type="audio/mpeg">
+         <source src="audio/ice-e-fire.ogg" type="audio/ogg">
+         <source src="audio/ice-e-fire.wav" type="audio/wav">
+         <p>Infelizmente se navegador não suporta esse tipo de midia <a href="audio/ice-e-fire.mp3">Clique aqui para baixar em mp3. </a></p>
+      </audio>
+
+</body>
+</html>

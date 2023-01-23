@@ -1,0 +1,59 @@
+@charset "UTF_8";
+    
+h1{
+    background-color: cadetblue;
+   
+    width: 300px;
+    height: 300px;
+   
+    /*Box-level
+
+    (Borda simplificada) Shortrand
+
+   border: 10px solid black;*/
+
+   border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    
+    /* (padin Simlificado) Shortrand*/
+
+    /* padding: 10px 10px 10px 10px;
+        ou
+    padding: 10px; (serve para as 4 bordas) */
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+     /* (Margin simplificada)  Shortrand*/
+     /* margin: auto; (centraliza a caixa)
+      /*margin: 20px 20px 40px 20px; */
+    /*margin: 20px auto auto 20px; */
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    
+    /* (outline simplificada) Shortrand*/
+    /* outline: 5px dashed salmon ; */
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+}
+
+   
+
+a{  /*Inline-level*/
+    border-width: 10px;
+    border-color: red;
+    border-style: dashed;
+    
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
