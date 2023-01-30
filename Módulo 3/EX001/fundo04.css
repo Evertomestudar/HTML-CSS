@@ -2,17 +2,24 @@
 
 body{
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url('imagens/wallpaper002.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center top;
     background-size: cover;
+    background-attachment: fixed; */
 
+    /* shortrand/ background: color > image> position> repeat> size> atacchemant */ 
+
+    /* OBS o size não funciona tem que fazer uma declaração separada  */
+
+    background: black url('imagens/wallpaper002.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 main{
     background-color: white;
-   width: 400px;
+   max-width: 400px;
    padding: 10px;
    margin: auto;
    border: 1px solid darkblue;
