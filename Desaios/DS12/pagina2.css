@@ -1,5 +1,54 @@
 @charset "UTF-8";
 
-body{
-    
+body {
+    background-image: url('imagens/fundo-2p3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 
+    center;
+   background-attachment: fixed;
+    color: white;
+    font-size: 15px;
+ font-weight: bolder;
+}
+
+main p {
+    background-color: white;
+}
+
+header h1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.493);
+    margin: auto;
+   
+
+}
+
+header p {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.082);
+    margin: 20px;
+
+}
+
+main h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.158);
+    color: rgb(0, 0, 0);
+
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+    margin: 20px;
+
+}
+
+
+
+
+header p {
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
 }

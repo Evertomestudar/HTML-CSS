@@ -19,7 +19,7 @@
 html, body{
     font-family: var(--font1);
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
 }
 
 header{
@@ -93,4 +93,15 @@ footer{
     background-color: black ;
     text-align: center;
     color: white;
+}
+
+#botao{
+    text-align: justify;
+    background-color: white;
+    margin-bottom: 30px;
+ 
+    font-weight: bolder;
+ text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377);
+
+ color: ;
 }
