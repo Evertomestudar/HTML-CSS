@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas Grandes</title>
+
+    <style>
+
+            tbody > tr:nth-child(2n) {
+                background-color: lightgrey;
+            }
+                
+            
+        body{
+            
+            text-align: center;
+        }
+        table {
+            width: 700px;
+            border-collapse: collapse;
+            width: bolder;
+            text-align: center;
+            margin: auto
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        caption{
+            padding: 10px;
+         font-size: 1.5em;
+         font-weight: bold;
+         background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ANATOMIA DE TABELAS GRANDES
+    THEAD
+    TR, TD TH
+
+   TBODY
+    TR, TD TH
+
+    TFOOT
+    TR, TD TH -->
+<h1>Uso de tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades federativas</caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+            
+                <td>46 024 937</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+           
+            
+                <td>20 732 660</td>
+            
+            <tr>
+                <td>Rio de Janeiro</td>
+            
+                <td>16 615 526</td>
+           
+            <tr>
+                <td>Bahia</td>
+                <td>14 873 000</td>
+            </tr>
+
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th> 
+                <td>98 246 123</td>
+            </tr>
+           
+        </tfoot>
+
+
+    </table>
+</body>
+
+</html>

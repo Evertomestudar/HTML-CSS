@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+
+
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+} 
+
+
+
+
+td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+
+}
+
+tr.linha{
+    background-color: gray;
+}
+
+td.dado{
+    background-color: yellow;
+}
